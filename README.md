@@ -71,11 +71,17 @@ From the project root:
 python python/animation.py
 ```
 
-## Full run (Java → Python)
+## Full example run (Java → Python)
 
 ```bash
 mvn clean package
 java -jar target/simulator.jar
+
+Enter weight (Newtons, N): 30
+Enter kinetic friction coefficient µk (>= 0): 0.2
+Enter slope angle in degrees (0.1-90): 30
+Enter slope length (0.1-8 m): 7
+
 python python/animation.py
 ```
 
