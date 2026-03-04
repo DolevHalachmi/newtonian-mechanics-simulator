@@ -17,8 +17,9 @@ A physics simulation engine written in Java that models motion of a block on an 
 - **Maven 3.9+**
 - **Python 3.10+** for visualization
 
+```bash
 pip install -r python/requirements.txt
-
+```
 
 ## Project structure
 
@@ -69,4 +70,13 @@ From the project root:
 ```bash
 python python/animation.py
 ```
-![alt text](image.png)
+
+## Full run (Java → Python)
+
+```bash
+mvn clean package
+java -jar target/simulator.jar
+python python/animation.py
+```
+
+![Simulation animation screenshot](image.png)
