@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- Keep your groupId if you want; I’m only making it consistent with your package style -->
-  <groupId>io.github.DolevHalachmi</groupId>
+  <groupId>io.github.dolevhalachmi</groupId>
   <artifactId>newtonian-mechanics-simulator</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -58,7 +58,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.3.0</version>
         <configuration>
-          <mainClass>io.github.DolevHalachmi.engine.Main</mainClass>
+          <mainClass>io.github.dolevhalachmi.engine.Main</mainClass>
         </configuration>
       </plugin>
 
@@ -70,7 +70,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>io.github.DolevHalachmi.engine.Main</mainClass>
+              <mainClass>io.github.dolevhalachmi.engine.Main</mainClass>
             </manifest>
           </archive>
         </configuration>
